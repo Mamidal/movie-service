@@ -82,6 +82,7 @@ task integrationTests(type: Test) {
     include '**/integration/**'
 }
 
+
 task acceptanceTests(type: Test) {
     include '**/features/**'
 }
